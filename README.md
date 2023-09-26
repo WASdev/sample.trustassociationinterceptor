@@ -21,7 +21,7 @@ In order to make sure that the file behaves as intended, follow the steps outlin
    ```
    mvn package
    ```
-1. After the build process completes successfully, a `JAR` file is be created in the target directory of your project.
+1. After the build process completes successfully, a `JAR` file is created in the target directory of your project.
    ```
    ./target/sampletai-1.0-SNAPSHOT.jar
    ```
