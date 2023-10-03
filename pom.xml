@@ -32,7 +32,14 @@
       <scope>system</scope>
       <systemPath>${basedir}/lib/com.ibm.ws.security.authentication.tai_1.0.40.jar</systemPath>
     </dependency>
-        <dependency>
+    <dependency>
+      <groupId>com.ibm.wsspi.security.token</groupId>
+      <artifactId>taijar</artifactId>
+      <version>1.0</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/com.ibm.ws.security.token_1.0.50.jar</systemPath>
+    </dependency>
+    <dependency>
       <groupId>com.ibm.websphere.security</groupId>
       <artifactId>taijar</artifactId>
       <version>1.0</version>
